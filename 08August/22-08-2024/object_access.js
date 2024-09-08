@@ -1,0 +1,19 @@
+let user = [
+    {
+        name:"one",
+        email:"oneexample@gmail.com"
+    },
+    {
+        name:"two",
+        email:"twoexample@gmail.com"
+    },
+    {
+        name:"three",
+        email:"threeexample@gmail.com"
+    },
+    {
+        name:"four",
+        email:"fourexample@gmail.com"
+    }
+]
+console.log(user[2].email);

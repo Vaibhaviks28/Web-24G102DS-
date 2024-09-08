@@ -1,0 +1,11 @@
+.one{
+    text-align: center;
+    border: 2px solid black;
+    white-space: nowrap;
+    width: 300px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.one:hover{
+    overflow: visible;
+}

@@ -1,0 +1,22 @@
+/*p::first-letter{
+    font-size: 100px;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    color: red;
+}
+::placeholder{
+    color: red;
+}
+    */
+p::before{
+    content: 'BEFORE';
+    background-color: pink;
+}
+
+p::after{
+    content: 'AFTER';
+    background-color: pink;
+}

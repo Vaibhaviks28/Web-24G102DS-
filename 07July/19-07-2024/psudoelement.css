@@ -1,0 +1,88 @@
+.one1,.one2{
+border: 2px solid red;
+}
+/*   it should be 1st p child in code
+.one p:first-child{
+    background-color: aquamarine;
+}
+
+/*   it should be last p child in code
+.one p:last-child{
+    background-color: aquamarine;
+}
+
+ */
+
+
+/*  it should be 1st p type from all class 
+ .one p:first-of-type{
+    background-color: aquamarine;
+ }
+    */
+
+
+/* it should be last p tyle of all class
+    .one p:last-of-type{
+        background-color: aquamarine;
+     }
+ */
+
+/* it takes vakue in () ,and do as told eg-1 works like 1st-child, eg even-will color to even tags
+ .one p:nth-child(odd){
+    background-color: aquamarine;
+ }
+
+ */
+
+ /*
+ .one p:nth-last-child(even){
+    background-color: aquamarine;
+ }
+ */
+
+ /*
+
+ .one p:nth-last-of-type(1){
+    background-color: aquamarine;
+ }
+
+ */
+
+ /*
+ .one p:only-of-type{
+    background-color: aquamarine;
+ }
+*/
+
+/*
+.one p:nth-of-type(1){
+    background-color: aquamarine;
+}
+*/
+
+/*
+.one p:only-child{
+    background-color: aquamarine;
+}
+*/
+
+/*
+.one p:empty{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+*/
+
+/*
+.one1 :not(p){
+    color: red;
+}
+*/
+
+.one h2:lang(en){
+    color: brown;
+}
+
+
+

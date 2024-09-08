@@ -1,0 +1,31 @@
+/*.one{
+    height: 50vh;
+    width: 50vw;
+    background-color: aqua;
+}*/
+/*h1{
+    font-size: 20vh;
+}
+h1{
+    font-size: 20vmax;
+}
+
+h1{
+    font-size: 20vmin;
+}
+
+h1{
+    font-size: 32px;
+}
+.mine{
+font-size: 2em;
+}
+*/
+html{
+    font-size: 100%;
+   /* font-size: 100px;*/
+}
+h1{
+    font-size: 7rem;
+    color: red;
+}

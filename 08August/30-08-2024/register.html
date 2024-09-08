@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+        <div class="container">
+        <form action="" onsubmit="return validateForm()">
+            <h1>  Register</h1>
+            <div class="formdesign" id="name">
+            <label class="label" for="name">Username</label>
+            <br />
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Enter your name"
+            />
+            <span class="formerror"></span><br />
+            </div>
+
+            <div class="formdesign" id="email">
+            <label class="label" for="email">Email</label>
+            <br />
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="email@domain.com"
+            />
+            <span class="formerror"></span><br />
+            </div>
+
+            <div class="formdesign" id="phone">
+            <label class="label" for="phone">Phone Number</label>
+            <br />
+            <input
+                type="text"
+                id="phone"
+                name="phone"
+                inputmode="numeric"
+                pattern="[0-9]+"
+                required
+                placeholder="Enter your 10 digit Phone no"
+            />
+            <span class="formerror"></span><br />
+            </div>
+
+            <div class="formdesign" id="pass">
+            <label class="label" for="pass">Password</label>
+            <br />
+            <input
+                type="password"
+                id="pass"
+                name="pass"
+                required
+                placeholder="Enter your password"
+            />
+            <span class="formerror"></span><br />
+            </div>
+
+            <div class="formdesign" id="cpass">
+            <label class="label" for="cpass">Confirm Password</label>
+            <br />
+            <input
+                type="password"
+                id="cpass"
+                name="cpass"
+                required
+                placeholder="Confirm your password"
+            />
+            <span class="formerror"></span><br />
+            </div>
+
+            <div>
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms"
+                >I Agree to the
+                <a href="http://#13535">Terms and Conditions</a>
+            </label>
+            </div>
+            <br />
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        </div>
+        <script src="register.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,44 @@
+/*
+
+--text align---
+
+h1{
+    text-align: right;
+}
+h2{
+    text-align: left;
+}
+h3{
+    text-align: center;
+}
+
+-----text decoration----
+
+.one{
+    text-decoration: underline;
+}
+.two{
+    text-decoration: line-through red;
+}
+.three{
+    text-decoration: underline wavy blue;
+}
+    
+----text-transform and line height----
+*/
+@font-face {
+    font-family: one;
+    src: url(Lonely\ Coffee.otf);
+}
+.one{
+    text-transform: capitalize;
+    line-height: 4;
+    font-family:one;
+}   
+.two{
+    text-transform: uppercase;
+    line-height: 20%;
+}
+.three{
+    text-transform: lowercase;
+}

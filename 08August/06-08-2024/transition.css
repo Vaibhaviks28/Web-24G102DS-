@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin: 100px auto;
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    transition-duration: 1s ;
+    transition-property:all;
+}
+.box:hover{
+    background-color: aqua;
+    transition-duration: 1s ;
+    transform: rotate(180deg);
+    border-radius: 50%;
+    /* transition-delay: 1s; */
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: linear; */
+    /* transition-timing-function: cubic-bezier(0.88,-0.1, 0.07, 1.1);  */
+    transition-timing-function: cubic-bezier(1,-0.44, 0.67, 0.04);
+    
+   
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <!--  [input attributes]
+        type ,name ,id, required,placeholder,pattern ,autofocus ,action
+        autocomplete     -->
+
+      <label for="name">Name:</label>
+      <input type="text" name="name" placeholder="name" required />
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" placeholder="password" required />
+      <br /><br />
+
+      <label for="mobile">Mob No:</label>
+      <input
+        type="text"
+        inputmode="numeric"
+        placeholder="mobile no"
+        pattern="[0-9]+"
+        required
+      />
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" placeholder="email" required />
+      <br /><br />
+
+<!-- for incresing size horizontaly then give cols attribute and for vertically rows-->
+
+      <label for="bio">Bio:</label>
+      <textarea name="bio" rows="2" cols="8"></textarea>
+      <br><br>
+
+      <label for="Gender">Gender:</label> <br />
+      <input type="radio" name="Gender" value="female" />
+      <label>Female</label><br />
+      <input type="radio" name="Gender" value="male" />
+      <label>Male</label>
+      <br /><br />
+
+      <label>Course:</label><br>
+      <input type="checkbox" name="option" />
+      <label for="check">10th</label><br>
+      <input type="checkbox" name="option"/>
+      <label for="check">12th</label><br>
+      <input type="checkbox" name="option"/>
+      <label for="check">Diploma</label><br>
+      <input type="checkbox" name="option"/>
+      <label for="check">Btech</label><br>
+      <input type="checkbox" name="option"/>
+      <label for="check">Mtech</label>
+      <br><br>
+
+
+
+      <button type="submit">Done</button>
+      <button type="reset">Reset</button>
+    </form>
+<a href=""></a>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+ $(document).ready(function(){
+    $('#add').click(function(){
+        $('#box').addClass('box')
+    })
+    $('#remove').click(function(){
+        $('#box').removeClass('box1')
+    })
+    $('#toggle').click(function(){
+        $('#box').toggleClass('box1')
+    })
+   })

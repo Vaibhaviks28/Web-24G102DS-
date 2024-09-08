@@ -1,0 +1,6 @@
+p{
+    background-image: url(/31-07-2024/fav.png),url(/31-07-2024/images.jpeg);
+    background-position: center,left;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 400px 200px, 200px 100px;
+}

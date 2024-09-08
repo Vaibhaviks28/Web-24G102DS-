@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoForm</title>
+</head>
+<body>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" required>
+        <br><br>
+
+        <label for="mob">mobile no:</label>
+        <input type="text" inputmode="numeric" pattern="[0-9]+" required>
+        <br><br>
+
+        <label for="address">address:</label>
+        <textarea name="address" rows="2"cols="15" required></textarea>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" required>
+        <br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender">
+        <label for="gender">Male</label>
+        <input type="radio" name="gender">
+        <label for="gender">Female</label>
+        <br><br>
+
+        <label for="choice">Education:</label><br>
+        <input type="checkbox" name="option">
+        <label for="education">10th</label>
+        <input type="checkbox" name="option">
+        <label for="education">12th</label>
+        <input type="checkbox" name="option">
+        <label for="education">diploma</label>
+        <br><br>
+        
+    
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

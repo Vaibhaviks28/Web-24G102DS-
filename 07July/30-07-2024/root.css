@@ -1,0 +1,61 @@
+:root{
+    --abc:aqua;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image: url(/30-07-2024/anime-7959691_960_720.webp);
+    background-size: cover;
+}
+img{
+    border-radius: 50%;
+}
+.about, .skills, .experience{
+    padding: 10px 60px;
+    margin: 10px 150px;
+    border-radius: 20px;
+}
+.about{
+    margin-top: 0;
+}
+.header{
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.header > .logo{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid red;
+    box-shadow:  1px 1px 10px 0px rgba(0,0,0,0.5);
+    background: var(--abc);
+}
+.header hr{
+    border-color: var(--abc);
+    width: 100px;
+}
+.header h1{
+    color: var(--abc);
+}
+.about{
+    background: #212121;
+    box-shadow: 9px 1px 5px rgba(50,50,50,0.2);
+}
+.skills{
+    background: var(--abc);
+    color: #212121;
+}
+.experience{
+    background: #212121 ;
+    color: white;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.2);
+}
+.footer{
+    background: var(--abc);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}

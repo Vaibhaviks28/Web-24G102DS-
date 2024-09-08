@@ -1,0 +1,21 @@
+
+
+/*desident selector*/
+.one p{
+    color: red;
+}
+
+/*child delector*/
+.one>p{
+    color: aqua;
+}
+
+/* adjacent selector */
+h1+p{
+    color: red;
+}
+
+/* general sibling selector*/
+h1~p{
+    color: red;
+}

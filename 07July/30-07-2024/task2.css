@@ -1,0 +1,9 @@
+input[name="fname"]::placeholder{
+    color: red;
+}
+input[name="lname"]::placeholder{
+    color: blue;
+}
+input[name="email"]::placeholder{
+    color: green;
+}

@@ -1,0 +1,16 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.one{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+.two{
+    position: absolute;
+    top: 330px;
+    height: 30%;
+    width: 50%;
+    background-color: blue;
+}

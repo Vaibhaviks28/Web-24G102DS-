@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<body>
+    <canvas id="mine" width="400" height="200" style="border: 2px solid red;"></canvas>
+
+
+   <script>
+        let c= document.getElementById("mine");
+        let cc = c.getContext("2d");
+        // cc.moveTo(0,0);
+        // cc.lineTo(400,200);
+        cc.beginPath();
+        cc.fillStyle='pink';
+        cc.arc(95,50,40,0,2*Math.PI);
+        cc.fill();
+        cc.strokeStyle='blue';
+        cc.stroke()
+    </script>
+
+</body>
+</html>

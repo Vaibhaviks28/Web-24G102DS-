@@ -1,0 +1,30 @@
+table {
+    border: 2px solid rgb(26, 24, 24);
+    border-collapse: collapse;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+  }
+  th {
+    border: 2px solid red;
+    background-color: brown;
+    color: white;
+  }
+  td {
+    border: 2px solid rgb(9, 13, 238);
+  }
+  caption {
+    font-size: 40px;
+    color: red;
+  }
+  tr {
+    text-align: left;
+    border: 2px solid blue;
+  }
+  .one {
+    font-size: 25px;
+    color: red;
+  }
+  tr:nth-child(even){
+    background-color: aqua;
+  }

@@ -1,0 +1,39 @@
+/*.one{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+    */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    height: 8000px;
+    background-color: crimson;
+}
+
+.box{
+    height: 8000px;
+    background-color: aqua;
+
+}
+
+.one{
+    position: sticky;
+    top: 400px;
+    left: 200px;
+}
+.two{
+position: fixed;
+}
+.three{
+position: fixed;
+}
+.four{
+position: sticky;
+}

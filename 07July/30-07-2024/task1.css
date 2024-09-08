@@ -1,0 +1,12 @@
+li::first-letter{
+    color: red;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+p::first-line{
+    background-color: aqua;
+}
+p::selection{
+    color: white;
+    background-color: brown;
+}

@@ -1,0 +1,71 @@
+label{
+    width: 150px;
+    display: inline-block;
+}
+fieldset{
+    width: 500px;
+}
+label, h1{
+    color: blue;
+    font-weight: bold;
+}
+button{
+    box-shadow: 1px 1px  blue;
+}
+/*
+input:checked{
+    box-shadow: 0 0 0 4px red;
+}
+    */
+input[type=radio]:checked + span{
+    box-shadow: 0 0 0 4px red;
+    color: red;
+}
+
+/*input:disabled{
+    border: 4px solid blue;
+}
+
+input:enabled{
+    border: 4px solid red;
+}
+   
+
+input:optional{
+    border: 4px solid red;
+}
+
+input:required{
+    border: 4px solid blue;
+}
+    
+
+input:in-range{
+    border: 4px solid red;
+}
+
+input:out-of-range{
+    border: 4px solid blue;
+}
+
+ input:read-only{
+    border: 4px solid blue;
+}
+
+input:read-write{
+    border: 4px solid red;
+}
+   
+input:valid{
+    border: 4px solid blue;
+}
+
+input:invalid{
+    border: 4px solid red;
+}
+
+  */
+
+  input:default{
+    box-shadow: 0 0 0 4px red;
+}

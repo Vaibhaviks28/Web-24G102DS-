@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>survey</title>
+    <style>
+      form {
+        width: 500px;
+        height: 630px;
+        border: 2px solid aqua;
+        padding-left: 10px;
+        justify-content: center;
+      }
+      label {
+        font-size: 18px;
+        color: blue;
+        padding-right: 20px;
+      }
+      #head {
+        font-size: 28px;
+        color: aqua;
+      }
+      .info{
+        color: black;
+        font-size: 20px;
+      }
+      table{
+        padding-bottom: 5px;
+      }
+      td{
+        padding-bottom: 5px;
+        width: 200px;
+      }
+      .add{
+        left: 200px;
+      }
+     /* .btn{
+        text-align: center;
+        display: inline-block;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        place-items: center;
+      } */
+       .btn{
+        box-shadow: 4px 4px 2px -2px blue ;
+        position: relative;
+        justify-items: center;
+       }
+      .btn:hover{
+        background-color: blue;
+        color: white;
+      }
+     
+      
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <b>
+        <p id="head"> Please complete our survey</p>
+        <label for="cinfo" class="info">Contact information</label>
+        <br /><br />
+        <table>
+          <tr>
+            <td><label for="email">Email address:</label></td>
+            <td><input type="email" name="email" required /></td>
+          </tr>
+
+          <tr>
+            <td><label for="fname">First name:</label></td>
+            <td><input type="text" name="fname" required /></td>
+          </tr>
+          <tr>
+            <td><label for="lname">Last name:</label></td>
+            <td><input type="text" name="lname" required /></td>
+          </tr>
+        </table>
+        
+        <p class="info">Geographic information</p>
+        <table>
+          <tr>
+            <td><label for="state">State:</label></td>
+            <td>
+              <input 
+                type="text"
+                name="state"
+                placeholder="five characters"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="zip">Zip code:</label></td>
+            <td>
+              <input
+                type="text"
+                name="zip"
+                inputmode="numeric"
+                pattern="[0-9]+"
+                placeholder="six digits"
+                required
+              />
+            </td>
+          </tr>
+        </table>
+        
+        <p class="info"> How did you hear about us?</p>
+
+        <table>
+          <tr>
+            <td><label for="search">Web search:</label></td>
+            <td><input type="checkbox" name="choice" /></td>
+          </tr>
+          <tr>
+            <td><label for="fb">Facebook:</label></td>
+            <td><input type="checkbox" name="choice" /></td>
+          </tr>
+          <tr>
+            <td><label for="twit">Twitter:</label></td>
+            <td><input type="checkbox" name="choice" /></td>
+          </tr>
+          <tr>
+            <td><label for="mail">Email messages:</label></td>
+            <td><input type="checkbox" name="choice" /></td>
+          </tr>
+        </table>
+        
+        <p class="info"
+          >Thank you for taking our survey!</p>
+        </b>
+
+      <input style="left: 170px;" type="submit" class="btn" value="Submit">
+      <input style="left: 180px;" type="reset" class="btn" value="Reset">    
+    </form>
+  </body>
+</html>
